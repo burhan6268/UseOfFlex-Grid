@@ -1,0 +1,152 @@
+header
+{
+	background-color: rgba(245,213,123,0.5);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 2em;
+	border-radius:5px;
+	grid-area:header;
+}
+
+
+#detail1 { background-color: rgba(255, 228, 196, 0.5); grid-area:left;}
+#detail2 { background-color: rgba(255, 228, 196, 0.5); grid-area:right;}
+
+footer 
+{
+  
+  padding: 6px;
+  text-align: center;
+  font-size:2em;
+  background-color:rgba(255,193,37,0.5);
+  border-radius:18px;
+  grid-area:footer;
+}
+
+
+.gridContainer
+{
+	display:grid;
+	grid-template-areas: 
+		"header header header header header header"
+		"left left left right right right"
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		". . . . . ."
+		"footer footer footer footer footer footer"	
+		;
+	text-align:center;
+	grid-column-gap: 10px;
+	grid-row-gap: 15px;
+}
+.t2
+{
+	font-size:2em;
+	text-align:center;
+	background-color:rgba(120,130,125,0.5);
+}
+ol
+{
+	background-color:rgba(120,130,125,0.5);
+	border:black 4px solid;
+	border-radius:4px;
+}
+
+.l1{
+	grid-area:l1;
+	border-radius:8px;
+}
+.l2{
+	grid-area:l2;
+	border-radius:8px;
+}
+
+#coac1
+{
+	background-color:rgba(240,234,234,0.5);
+	border:black 3px groove;
+	border-radius:5px;
+	padding:6px;
+	
+}
+.p{
+	font-size:2em;
+	font-family:Consolas;
+	text-align:center;
+	background-color:rgba(240,234,234,0.5);
+	color:rgba(104,190,49);
+	font-weight:bold;
+	text-shadow: 10px 8px 8px black;
+    padding:5px;
+	border:black 6px double;
+    border-radius:10px;
+	
+}
+.p2{
+	font-size:2em;
+	font-family:Consolas;
+	text-align:center;
+	background-color:rgba(240,234,234,0.5);
+	color:rgba(150,77,123);
+	font-weight:bold;
+	text-shadow: 10px 8px 8px rgba(123,156,180);
+    padding:5px;
+	border:black 6px double;
+    border-radius:10px;
+	
+}
+
+.left,.right {
+  padding-left:100px;
+  height: 600px; 
+  width:600px;
+}
+
+.det
+{
+	font-size:1.5em;
+	border:black 4px double;
+	border-radius:10px;
+	color:black;
+	text-shadow:0px 0px 2px rgba(100,100,100);
+	background-color: rgba(145,135,200,0.5);
+}
+
+.movie{
+	    color:black;
+		text-align:left;
+		background-color: rgba(220,213,123,0.5);
+		padding:10px;
+		border:black 5px solid;
+		border-radius : 15px;
+	   }
+
+.flex-container 
+{
+       display: flex;
+       flex-wrap: wrap;
+	   justify-content: center;
+       }
+
+.imagee
+{
+	border:black 5px double;
+	border-radius:10px;
+	padding:5px;
+}
